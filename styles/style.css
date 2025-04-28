@@ -1,0 +1,142 @@
+/* Google font  */
+
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  /* shared style */
+  .btn-primary{
+    background-color: #FD6E0A;
+    border: none;
+    font-size: 20px;
+    font-weight: 700px;
+    color: white;
+    padding: 17px;
+    border-radius: 5px;
+  }
+  .dark-2{
+    color: #474747;
+  }
+  .secondary-background{
+    background-color: #FFF8F3;
+  }
+  .text-center{
+    text-align: center;
+  }
+
+/* design header nav part */
+.header{
+    
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: left top,right bottom; 
+  
+}
+.header nav{
+    margin: 0 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.header nav ul{
+    
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header nav ul li{
+    list-style: none;
+
+}
+.header nav ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+.header nav h3{
+    font-size: 45px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin-left: 230px; 
+   margin-right: 38px;
+   
+}
+.banner-content{
+    max-width: 580px;
+    height: 350px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 400;
+}
+.banner-title{
+    margin-top: -80px;
+    font-weight: 700;
+    font-size: 85px;
+    color:#181818 ;
+}
+.banner-description{
+    margin-top: -70px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+.contact-btn{
+    margin-left: 20px;
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
+/* style on about section */
+.about-container{
+  
+    margin: 140px 230px 140px 230px;
+    padding: 130px 160px;
+   
+}
+.about{
+    border: 1px black solid;
+    padding-left: 22px;
+    padding-right: 22px;
+    background-color: white;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* style on skill-section */
+.skill-section{
+    
+    margin: 140px 230px 140px 230px;
+}
+
+.skills{
+    margin-top: 40px;
+    display: flex;
+    gap: 24px;
+}
+.child-description{
+    
+    font-weight: 400;
+    font-size:16px;
+}
+.skill-child{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 #dbd6d6;
+}
+.section-para{
+    margin-left: 110px;
+    margin-right: 110px;
+}
