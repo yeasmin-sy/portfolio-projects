@@ -7,6 +7,10 @@
     font-variation-settings:
       "wdth" 100;
   }
+  main{
+
+    margin: 140px 230px 140px 230px;
+  }
   /* shared style */
   .btn-primary{
     background-color: #FD6E0A;
@@ -100,7 +104,7 @@
 /* style on about section */
 .about-container{
   
-    margin: 140px 230px 140px 230px;
+    /* margin: 140px 230px 140px 230px; */
     padding: 130px 160px;
    
 }
@@ -115,11 +119,19 @@
     justify-content: space-around;
 }
 
+.section-description{
+    font-weight: 400;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+}
+
 
 /* style on skill-section */
 .skill-section{
     
-    margin: 140px 230px 140px 230px;
+    /* margin: 140px 230px 140px 230px; */
 }
 
 .skills{
