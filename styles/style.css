@@ -121,17 +121,19 @@
 
 .section-description{
     font-weight: 400;
+  
 }
 .section-title{
     font-weight: 700;
     font-size: 35px;
+    color: #181818;
 }
 
 
 /* style on skill-section */
 .skill-section{
     
-    /* margin: 140px 230px 140px 230px; */
+   margin-top: 130px;
 }
 
 .skills{
@@ -143,6 +145,7 @@
     
     font-weight: 400;
     font-size:16px;
+    color: #757575; ;
 }
 .skill-child{
     padding: 30px;
@@ -152,3 +155,42 @@
     margin-left: 110px;
     margin-right: 110px;
 }
+
+/* working on resume section */
+.resume-section{
+    margin-top: 130px;
+    
+}
+.info-container{
+    padding-top: 30px;
+    display: flex;
+    gap: 24px;
+    
+}
+.resume-info-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.info-type-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+    
+}
+.info-address{
+    margin-top: -10px;
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600px;
+}
+.info-type{
+    padding-right: 50px;
+}
+.download-button{
+  margin-top: 50px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
