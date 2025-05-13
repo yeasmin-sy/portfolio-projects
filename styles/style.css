@@ -16,7 +16,7 @@
     background-color: #FD6E0A;
     border: none;
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: bold;
     color: white;
     padding: 17px;
     border-radius: 5px;
@@ -198,4 +198,18 @@
 footer{
    padding:160px 230px 130px 230px;
 }
+.footer-container{
+    display: flex;
+    gap: 120px;
+}
+.msg-container>form>input,textarea{
+    border-radius: 5px;
+   border: 1px #FFFFFF solid;
+   padding: 15px;
+}
+::placeholder{
+    color:#757575;
+}
+
+
 
