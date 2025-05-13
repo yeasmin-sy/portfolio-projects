@@ -210,6 +210,11 @@ footer{
 ::placeholder{
     color:#757575;
 }
+.social-connectivity>ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
 
 
 
